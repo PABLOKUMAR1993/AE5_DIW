@@ -1,3 +1,5 @@
+/********************************** RESOURCES */
+
 /* FONTS */
 
 
@@ -22,7 +24,7 @@
 .antagonistas_Clicked { color: #612B05 ; }
 
 
-/* GENERAL */
+/********************************** GENERAL */
 
 
 * {
@@ -37,7 +39,7 @@ body {
 }
 
 
-/* FONTS */
+/********************************** FONTS */
 
 
 .heroTx {
@@ -49,39 +51,44 @@ body {
 
 h1 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2em;
     color: #274F73;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.8em;
+    color: #274F73;
 }
 
 h3 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.6em;
+    color: #274F73;
 }
 
 h4, .buttonPrimary {
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
     font-size: 1.6em;
+    color: #2F4A4D;
 }
 
 h5 {
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
     font-size: 1.4em;
+    color: #2F4A4D;
 }
 
 h6, .buttonSecondary {
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
     font-size: 1.2em;
+    color: #2F4A4D;
 }
 
 .p1 {
@@ -95,12 +102,14 @@ h6, .buttonSecondary {
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
     font-size: 1em;
+    color: #2F4A4D;
 }
 
 .p3 {
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
     font-size: 0.8em;
+    color: #2F4A4D;
 }
 
 i {
@@ -112,7 +121,7 @@ a:hover {
 }
 
 
-/* BUTTONS */
+/********************************** BUTTONS */
 
 
 .buttonPrimary {
@@ -154,17 +163,19 @@ a:hover {
 }
 
 
-/* HERO */ 
+/********************************** HERO */ 
 
 
 header {
+    width: 99vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
 .imgHero {
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     object-fit: cover;
     position: absolute;
@@ -184,18 +195,25 @@ nav {
     margin: 4vh 8vw 0 8vw;
 }
 
-
-.containerLogo {
-    display: flex;
-    align-items: center;
-}
-
 .logo {
     width: 60px;
     margin-right: 2vw;
 }
 
 ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-right: 2vw;
+}
+
+
+/* CONTENT HERO */
+
+
+.containerLogo {
     display: flex;
     align-items: center;
 }
@@ -220,6 +238,97 @@ ul {
     margin-right: 1vw;
 }
 
-li {
-    margin-right: 2vw;
+
+/********************************** MAIN */
+
+
+/* SECTION 01 */
+
+
+.section1 {
+    margin: 8vh 8vw 8vh 8vw;
+    text-align: center;
+}
+
+.section1 h1 {
+    margin-bottom: 8vh;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #366273;
+    width: 15%;
+    padding: 4vh 2vw 4vh 2vw;
+    border-radius: 1em;
+}
+
+.card h4 {
+    color: #F2F0D5;
+}
+
+.card .p2 {
+    color: #F2F0D5;
+}
+
+.titleCard {
+    margin-bottom: 3vh;
+}
+
+
+/********************************** FOOTER */
+
+
+/* FIRST BLOCK */
+
+
+.headerFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4vh 8vw 4vh 8vw;
+}
+
+.rrss {
+    margin: 0;
+    margin-left: 2vw;
+}
+
+
+/* LINKS BLOCK */
+
+
+.line {
+    background-color: #2F4A4D;
+    height: 1px;
+    margin: 0 8vw 0 8vw;
+}
+
+.linksFooter {
+    display: flex;
+    margin: 4vh 8vw 4vh 8vw;
+    justify-content: space-between;
+}
+
+.ulFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ulFooter li {
+    margin: 0 0 1vh 0;
+}
+
+.firma {
+    text-align: center;
+    margin-bottom: 4vh;
+    color: #366273;
+}
+
+.titleList {
+    margin-bottom: 2vh;
 }
