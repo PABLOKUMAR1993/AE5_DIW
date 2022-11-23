@@ -1,0 +1,225 @@
+/* FONTS */
+
+
+.titles { font-family: 'Open Sans', sans-serif; }
+.headers { font-family: 'Roboto Mono', monospace; }
+.body { font-family: 'Roboto Slab', serif; }
+
+
+/* COLORS */
+
+
+.backgroungAndText_BG { color: #F2F0D5; }
+.backgroungAndText_Text { color: #2F4A4D; }
+.backgroungAndText_Misc { color: #D9D9D9; }
+
+.protagonistas_Primary { color: #274F73; }
+.protagonistas_Hover_Card { color: #366273 ; }
+.protagonistas_Clicked { color: #56878C; }
+
+.antagonistas_Primary { color: #E8690C ; }
+.antagonistas_Hover { color: #FF830D  ; }
+.antagonistas_Clicked { color: #612B05 ; }
+
+
+/* GENERAL */
+
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #F2F0D5;
+}
+
+
+/* FONTS */
+
+
+.heroTx {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 4em;
+    color: #274F73;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    color: #274F73;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+h4, .buttonPrimary {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+h6, .buttonSecondary {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.p1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #2F4A4D;
+}
+
+.p2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.p3 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+i {
+    color: #2F4A4D;
+}
+
+a:hover {
+    color: #E8690C;
+}
+
+
+/* BUTTONS */
+
+
+.buttonPrimary {
+    color: #F2F0D5;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 1.6em;
+    background-color: #274F73;
+    padding: 8px 32px 8px 32px;
+    border-radius: 1em;
+    border: none;
+}
+
+.buttonPrimary:hover {
+    background-color: #366273;
+}
+
+.buttonPrimary:active {
+    background-color: #56878C;
+}
+
+.buttonSecondary {
+    color: #F2F0D5;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    background-color: #E8690C;
+    padding: 8px 32px 8px 32px;
+    border-radius: 1em;
+    border: none;
+}
+
+.buttonSecondary:hover {
+    background-color: #FF830D;
+}
+
+.buttonSecondary:active {
+    background-color: #612B05;
+}
+
+
+/* HERO */ 
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imgHero {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    opacity: 50%;
+}
+
+
+/* NAV */
+
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    margin: 4vh 8vw 0 8vw;
+}
+
+
+.containerLogo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 2vw;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.containerHero {
+    z-index: 1;
+    margin-top: 25vh;
+}
+
+.heroDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.heroDescription:nth-child(4) {
+    margin-bottom: 2vh;
+}
+
+.heroDescription i {
+    margin-right: 1vw;
+}
+
+li {
+    margin-right: 2vw;
+}
