@@ -22,12 +22,17 @@
                 <img class="logo" src="./img/gaman_logo.svg" alt="Logotipo de la Empresa">
                 <h1>GAMAN PSICOLOGÍA</h1>
             </div>
-            <ul>
-                <li><a href="#" class="p1">Especialidades</a></li>
-                <li><a href="#" class="p1">Blog</a></li>
-                <li><a href="#" class="p1">Conocenos</a></li>
-                <button class="buttonSecondary" type="submit">Login</button>
-            </ul>
+
+            <!-- 1440px nav -->
+            <div class="navPc">
+                <ul>
+                    <li><a href="#" class="p1">Especialidades</a></li>
+                    <li><a href="#" class="p1">Blog</a></li>
+                    <li><a href="#" class="p1">Conocenos</a></li>
+                    <button class="buttonSecondary" type="submit">Login</button>
+                </ul>
+            </div>
+            
         </nav>
 
         <div class="containerHero">
@@ -58,6 +63,9 @@
     <!-- MAIN -->
 
     <main>
+        
+        <!-- SECTION 1 - QUE OFRECEMOS -->
+
         <section class="section1">
             <h1>¿Qué Ofrecemos?</h1>
             <div class="cards">
@@ -79,10 +87,160 @@
                 </div>
             </div>
         </section>
-        <section class="section1"></section>
-        <section class="section1"></section>
-        <section class="section1"></section>
-        <section class="section1"></section>
+
+        <!-- SECTION 2 - NUESTRAS ESPECIALIDADES -->
+
+        <section class="section2">
+            <h1>Nuestras Especialidades</h1>
+            <div class="cards">
+                <div class="cardImg">
+                    <img src="./img/Ilustraciones/Tarjetas/Ansiedad.png" class="imgCard" alt="Imágen dentro de una tarjeta que representa la ansiedad"/>
+                    <h4 class="titleCardImg">Ansiedad & Somatización</h4>
+                    <p class="p2">La ansiedad es un estado de inquietud, nerviosismo, preocupación o temor que nos bloquea y nos impide llevar a cabo nuestra rutina.</p>
+                    <button class="buttonSecondary">Ver más</button>
+                </div>
+                <div class="cardImg">
+                    <img src="./img/Ilustraciones/Tarjetas/Sexualidad_Sexologia.svg" class="imgCard imgLess" alt="Imágen dentro de una tarjeta que representa la ansiedad"/>
+                    <h4 class="titleCardImg">Relaciones de Pareja</h4>
+                    <p class="p2">En las relaciones de pareja es importante poder identificar qué situaciones están creando fricción en la relación.</p>
+                    <button class="buttonSecondary">Ver más</button>
+                </div>
+                <div class="cardImg">
+                    <img src="./img/Ilustraciones/Tarjetas/PsicologiaLaboral.png" class="imgCard" alt="Imágen dentro de una tarjeta que representa la ansiedad"/>
+                    <h4 class="titleCardImg">Psicología Laboral</h4>
+                    <p class="p2">La finalidad de los programas de bienestar laboral es promover los buenos hábitos para preservar la salud física y emocional de los empleados.</p>
+                    <button class="buttonSecondary">Ver más</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3 - CÓMO FUNCIONA -->
+        
+        <section class="section3">
+            <h1>¿Cómo Funciona?</h1>
+
+            <div class="slideLeft">
+                <div class="contentTextLeft">
+                    <h4>1. Rellena el Formulario.</h4>
+                    <p class="p1">Sólo debes rellenar un breve formulario con los datos que necesitamos.</p>
+                    <button class="buttonPrimary">Probar Gratis</button>
+                </div>
+                <div class="contentImg">
+                    <img src="./img/Ilustraciones/Tarjetas/RellenarFormulario.png" alt="Imágen apaisada a la derecha que representa un proceso de registro."/>
+                </div>
+            </div>
+
+            <!-- PC (hide on mobile)-->
+            <div class="slideRight">
+                <div class="contentImg">
+                    <img src="./img/Ilustraciones/Tarjetas/ElegirPsicologo.png" alt="Imágen apaisada a la derecha que representa un proceso de registro."/>
+                </div>
+                <div class="contentTextRight">
+                    <h4>2. Elije al Profesional.</h4>
+                    <p class="p1">Elige el psilólogo o psicóloga según la especialidad que necesites.</p>
+                    <button class="buttonPrimary">Probar Gratis</button>
+                </div>
+            </div>
+
+            <!-- MOBILE (hide on pc)-->
+            <div class="slideLeft slideSustito">
+                <div class="contentTextLeft">
+                    <h4>2. Elije al Profesional.</h4>
+                    <p class="p1">Elige el psilólogo o psicóloga según la especialidad que necesites.</p>
+                    <button class="buttonPrimary">Probar Gratis</button>
+                </div>
+                <div class="contentImg">
+                    <img src="./img/Ilustraciones/Tarjetas/ElegirPsicologo.png" alt="Imágen apaisada a la derecha que representa un proceso de registro."/>
+                </div>
+            </div>
+
+            <div class="slideLeft">
+                <div class="contentTextLeft">
+                    <h4>3. Agenda una Primera Sesión Gratuita.</h4>
+                    <p class="p1">Reserva con el profesional elegido una primera sesión gratuita sin ningún compromiso.</p>
+                    <button class="buttonPrimary">Probar Gratis</button>
+                </div>
+                <div class="contentImg">
+                    <img src="./img/Ilustraciones/Tarjetas/AgendarSesion.png" alt="Imágen apaisada a la derecha que representa un proceso de registro."/>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SECTION 4 - CUÁNTO CUESTA -->
+
+        <section class="section4">
+            <h1>¿Cuánto Cuesta?</h1>
+            <p class="p1 descriptionSection4">Queremos recordarte que tu primera sesión siempre es Gratis y si no estás satisfecho con tu psicólogo puedes repetir la prueba Gratis de nuevo.</p>
+            <div class="cards">
+                <div class="cardPrice">
+                    <h4 class="cardPriceH4">Individual</h4>
+                    <p class="p1 cardPriceSecondaryTitle">Esta suscripción incluye:</p>
+                    <ul>
+                        <li><p class="p2 cardPriceOption">1 sesión de Chat de 45min.</p></li>
+                        <li><p class="p2 cardPriceOption">1 sesión de Llamada de Voz de 45min.</p></li>
+                        <li><p class="p2 cardPriceOption">1 sesión de Videollamada de 45min.</p></li>
+                    </ul>
+                    <p class="p3 smallLetter">Tendrás derecho a una reunión con tu psicólogo cómo la prefieras.</p>
+                    <h4 class="cardPriceImport">39€</h4>
+                    <button class="buttonSecondary">Elegir</button>
+                </div>
+
+                <div class="cardPriceHighLight">
+                    <div class="titleHighLight">
+                        <h4>Mensual</h4>
+                        <p class="p2">(El más popular)</p>
+                    </div>
+                    <p class="p1 cardPriceSecondaryHigh">Esta suscripción incluye:</p>
+                    <ul>
+                        <li><p class="p2 cardPriceOptionHigh">4 sesiones de Chat de 45min.</p></li>
+                        <li><p class="p2 cardPriceOptionHigh">4 sesiones de Llamada de Voz de 45min.</p></li>
+                        <li><p class="p2 cardPriceOptionHigh">4 sesiones de Videollamada de 45min.</p></li>
+                    </ul>
+                    <p class="p3 smallLetterHigh">Tendrás derecho a 12 reuniones con tu psicólogo cómo las prefieras.</p>
+                    <h4 class="cardPriceImport">29€</h4>
+                    <button class="buttonSecondary">Elegir</button>
+                </div>
+
+                <div class="cardPrice">
+                    <h4 class="cardPriceH4">Trimestral</h4>
+                    <p class="p1 cardPriceSecondaryTitle">Esta suscripción incluye:</p>
+                    <ul>
+                        <li><p class="p2 cardPriceOption">12 sesiones de Chat de 45min.</p></li>
+                        <li><p class="p2 cardPriceOption">12 sesiones de Llamada de Voz de 45min.</p></li>
+                        <li><p class="p2 cardPriceOption">12 sesiones de Videollamada de 45min.</p></li>
+                    </ul>
+                    <p class="p3 smallLetter">Tendrás derecho a 12 reuniones con tu psicólogo cómo las prefieras.</p>
+                    <h4 class="cardPriceImport">13€</h4>
+                    <button class="buttonSecondary">Elegir</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- SECTION 5 - TESTIMONIOS -->
+
+        <section class="section5">
+            <h1>¿Qué Ofrecemos?</h1>
+            <div class="cards">
+                <div class="card">
+                    <h4 class="titleCard">Antonio García</h4>
+                    <p class="p2">Muchisimas gracias a Guillermo, es sencillamente maravilloso y gran profesional, me está ayudando muchisimo.</p>
+                </div>
+                <div class="card">
+                    <h4 class="titleCard">Rosa Hernández</h4>
+                    <p class="p2">La experiencia no puede ser mejor, nunca pensé que me ayudarían tanto. Estoy encantada.</p>
+                </div>
+                <div class="card">
+                    <h4 class="titleCard">Elsa Villares</h4>
+                    <p class="p2">Elena me ha cambiado la vida. Ahora afronto mis problemas de una manera positiva. Por fin he conseguido salir del pozo en el que me encontraba.</p>
+                </div>
+                <div class="card">
+                    <h4 class="titleCard">Teresa Huedo</h4>
+                    <p class="p2">No podía hablar con mi pareja sin discutir. Nos habéis ayudado mucho a comprendernos mejor el uno al otro. Ahora usamos la empatía y no la recriminación. Gracias por todo.</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- FOOTER -->
@@ -103,38 +261,36 @@
         <section class="linksFooter">
             <ul class="ulFooter">
                 <li class="titleList"><h5>Mi Cuenta</h5></li>
-                <li><a href="#" class="p2">Mis Datos</a></li>
-                <li><a href="#" class="p2">Mis Suscripciones</a></li>
-                <li><a href="#" class="p2">Mi Piscólogo</a></li>
-                <li><a href="#" class="p2">Mis Sesiones</a></li>
+                <li><a href="#" class="p2Footer">Mis Datos</a></li>
+                <li><a href="#" class="p2Footer">Mis Suscripciones</a></li>
+                <li><a href="#" class="p2Footer">Mi Piscólogo</a></li>
+                <li><a href="#" class="p2Footer">Mis Sesiones</a></li>
             </ul>
             <ul class="ulFooter">
                 <li class="titleList"><h5>Especialidades</h5></li>
-                <li><a href="#" class="p2">Ansiedad & Somatizacion</a></li>
-                <li><a href="#" class="p2">Traumas y Apego</a></li>
-                <li><a href="#" class="p2">Relaciones de Pareja</a></li>
-                <li><a href="#" class="p2">Sexualidad o Sexología</a></li>
-                <li><a href="#" class="p2">Psicología Laboral</a></li>
+                <li><a href="#" class="p2Footer">Ansiedad & Somatizacion</a></li>
+                <li><a href="#" class="p2Footer">Traumas y Apego</a></li>
+                <li><a href="#" class="p2Footer">Relaciones de Pareja</a></li>
+                <li><a href="#" class="p2Footer">Sexualidad o Sexología</a></li>
+                <li><a href="#" class="p2Footer">Psicología Laboral</a></li>
             </ul>
             <ul class="ulFooter">
                 <li><h5>Blog</h5></li>
             </ul>
             <ul class="ulFooter">
                 <li class="titleList"><h5>Mi Cuenta</h5></li>
-                <li><a href="#" class="p2">Cómo Funciona</a></li>
-                <li><a href="#" class="p2">Dudas Frescuentes</a></li>
-                <li><a href="#" class="p2">Contacto</a></li>
+                <li><a href="#" class="p2Footer">Cómo Funciona</a></li>
+                <li><a href="#" class="p2Footer">Dudas Frescuentes</a></li>
+                <li><a href="#" class="p2Footer">Contacto</a></li>
             </ul>
             <ul class="ulFooter">
                 <li class="titleList"><h5>Mi Cuenta</h5></li>
-                <li><a href="#" class="p2">Condiciones</a></li>
-                <li><a href="#" class="p2">Privacidad</a></li>
-                <li><a href="#" class="p2">Cookies</a></li>
+                <li><a href="#" class="p2Footer">Condiciones</a></li>
+                <li><a href="#" class="p2Footer">Privacidad</a></li>
+                <li><a href="#" class="p2Footer">Cookies</a></li>
             </ul>
         </section>
-        <div class="firma">
-            <p class="p2">©  Grupo 01  |  Raúl Herrera & Pavlo Dudnyk.</p>
-        </div>
+        <p class="p2 firma">©  Grupo 01<br>Raúl Herrera & Pavlo Dudnyk.</p>
     </footer>
 
 </body>
