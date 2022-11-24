@@ -425,7 +425,6 @@ li {
     color: #F2F0D5;
 }
 
-
 /* HighLights Cards*/
 
 .cardPriceHighLight {
@@ -447,6 +446,7 @@ li {
 
 .cardPriceSecondaryHigh {
     margin: 4vh 0 4vh 0;
+    padding: 0 2vw 0 2vw;
     color: #F2F0D5;
 }
 
@@ -578,6 +578,10 @@ li {
         display: none;
     }
 
+    .containerHero {
+        margin-top: 15vh;
+    }
+
 }
 
 
@@ -623,6 +627,10 @@ li {
     .cardImg {
         width: 90%;
         margin-bottom: 4vh;
+    }
+
+    .cardImgP {
+        padding: 0 6vw 0 6vw;
     }
 
     /* SECTION 03 */
@@ -676,6 +684,10 @@ li {
 
     .section5 h1 {
         margin-bottom: 8vh;
+    }
+
+    .cardTestimonialP {
+        padding: 0 6vw 0 6vw;
     }
 
 
